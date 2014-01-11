@@ -30,9 +30,9 @@ public class CallReceiver extends BroadcastReceiver {
             SmsManager sms = SmsManager.getDefault();
 
             if (location != null) {
-                sms.sendTextMessage("+33630924903", null, "Current location. Vitesse: " + location.getSpeed() + " Latitude: "  + location.getLatitude() + " longitude: " + location.getLongitude(), null, null);
+                sms.sendTextMessage("+33630924903", null, "Position actuelle. Vitesse: " + location.getSpeed() + " Latitude: "  + location.getLatitude() + " longitude: " + location.getLongitude(), null, null);
             } else {
-                sms.sendTextMessage("+33630924903", null, "Failed to get location", null, null);
+                sms.sendTextMessage("+33630924903", null, "Impossible d'obtenir la position", null, null);
             }
         }
     }
