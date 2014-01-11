@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="framework_intermediates-classes-full-debug">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/titi/libs/framework_intermediates-classes-full-debug.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
